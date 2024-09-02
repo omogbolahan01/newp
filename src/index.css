@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Signika:wght@300..700&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  /* overflow-y: hidden; */
+  font-family: inter;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+.footer-area {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  /* height: 10vh; */
+  /* width: 100%; */
+  /* justify-content: space-between; */
+}
+.foot-1 {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  /* justify-content: end; */
+}
+.image-area {
+  width: 10rem;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+.image-area h3 {
+  font-family: signika;
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: #494949;
+}
+.number {
+  display: flex;
+  font-size: 0.5rem;
+  /* line-height: 3px; */
+}
+.empty {
+  border: 0.2px solid #000000;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.email {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  line-height: 1px;
+  font-weight: 500;
+  width: 25rem;
+}
+.email h2 {
+  font-size: 0.8rem;
+  color: #000000;
+}
+.emaild {
+  display: flex;
+  /* align-items: center; */
+  /* line-height: 3px; */
+  font-weight: 500;
+  width: 25rem;
+}
+.emaild h2 {
+  font-size: 0.8rem;
+  color: #000000;
+}
+
+.foot-2 {
+  background: #f4f4f4;
+  /* justify-content: center;
+  align-items: left;
+  text-align: center; */
+}
+.show {
+  padding-left: 7rem;
+}
+.foot-2 h2 {
+  font-family: signika;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+.foot-2 p {
+  line-height: 1px;
+  font-family: Inter;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #d10000;
+}
+.foot-part {
+  background: #d10000;
+  height: 1rem;
+  width: 100%;
+}
+@media (max-width: 1000px) {
+  .footer-area {
+    display: flex;
+    flex-direction: column;
+  }
+  .foot-1 {
+    padding-left: 3rem;
+    display: flex;
+    flex-direction: column;
+  }
+  .show {
+    padding-left: 3rem;
+  }
+}
